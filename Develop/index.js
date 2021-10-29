@@ -20,13 +20,23 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    console.log("Inside the function" ); 
+    fs.writeFile(fileName, data, (error)=>{
+        if (error) throw new Error(error);
+
+        console.log(fileName, " generated sucessfully !!!"); 
+    })
+    
+}
 
 // TODO: Create a function to initialize app
 function init() {
+    console.log("Welcome to README generator.......")
     inquirer.prompt(questions).then(response => {
         console.log("user Input is ", response); 
         //generate the readme.md file 
+        writeToFile('README.md', generateMarkdown(response)); 
     })
 }
 

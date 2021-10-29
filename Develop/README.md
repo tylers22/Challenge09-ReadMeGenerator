@@ -1,19 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  console.log("Inside Markdown", data); 
-  return `#${data.title}
+#tyler title
 
 ## Description 
 
@@ -53,9 +38,9 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-\`\`\`md
+```md
 ![alt text](assets/images/screenshot.png)
-\`\`\`
+```
 
 
 ## Credits
@@ -69,7 +54,7 @@ If you followed tutorials, include links to those here as well.
 
 ## License
 
-${data.license}
+None
 The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
 
 
@@ -97,7 +82,3 @@ If you created an application or package and would like other developers to cont
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them.
 
-`;
-}
-
-module.exports = generateMarkdown;
