@@ -12,6 +12,10 @@ const questions = [
         message: 'Please enter the tilte of your project'
       },
       {
+          ty
+      },
+
+      {
         type: 'list',
         name: 'license',
         message: 'Please choose a license for you project?',
