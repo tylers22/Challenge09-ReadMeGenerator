@@ -1,4 +1,4 @@
-#tyler title
+#Zach is awesome
 
 ## Description 
 
@@ -54,7 +54,7 @@ If you followed tutorials, include links to those here as well.
 
 ## License
 
-None
+MIT
 The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
 
 

@@ -1,5 +1,5 @@
 // TODO: Include packages needed for this application
-const inquirer = require("inquirer"); 
+const inquirer = require("inquirer");
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
@@ -9,10 +9,7 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'Please enter the tilte of your project'
-      },
-      {
-          ty
+        message: 'Please enter the title of your project'
       },
 
       {
