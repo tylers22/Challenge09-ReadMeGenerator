@@ -13,6 +13,30 @@ const questions = [
       },
 
       {
+        type: 'input',
+        name: 'description',
+        message: 'Please enter the description of your project'
+      },
+
+      {
+        type: 'input',
+        name: 'installation',
+        message: 'Please describe the installation of your project'
+      },
+
+      {
+        type: 'input',
+        name: 'usage',
+        message: 'Please describe the usage of your project'
+      },
+
+      {
+        type: 'input',
+        name: 'credits',
+        message: 'Please call out any credits or sources?',
+      },
+
+      {
         type: 'list',
         name: 'license',
         message: 'Please choose a license for you project?',
