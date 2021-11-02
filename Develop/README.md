@@ -1,19 +1,19 @@
-#node project
+#Challenge 09 README GENERATOR
  
 ## Title 
-node project
+Challenge 09 README GENERATOR
 
 ## Description 
-node readme
+README Generatore using Node.js
 
 ## Installation
-runs on node
+Runs with required Node modules Inquirer and FS
 
 ## Usage 
-create a readme
+Used to create a README file
 
 ## Credits
-my tutor is awesome
+My tutor Namits is absolutely awesome
 
 ## License
 MIT
